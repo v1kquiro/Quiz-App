@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#quiz-container2{
+    height: 520px;
+    width: 350px;
+    padding: 30px 50px;
+    background-color: rgba(15, 255, 195, 0.219);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.089);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+}
+
+h1{
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: black;
+}
